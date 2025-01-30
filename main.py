@@ -67,7 +67,7 @@ def send_message_to_api(conversation):
 # وظيفة بدء البوت
 @app.on_message(filters.command("start"))
 async def start(client, message):
-    await message.reply_text("مرحبًا! أرسل لي رسالة وسأرد عليك، وسأحتفظ بسياق المحادثة.")
+    await message.reply_text("مرحبًا! أنا بوت ذكاء اصطناعي تم تصميمي بواسطة 𝑹𝑨𝑽𝑬𝑵.")
 
 # وظيفة التعامل مع الرسائل
 @app.on_message(filters.text & ~filters.command("start"))
